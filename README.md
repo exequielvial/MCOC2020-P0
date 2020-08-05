@@ -27,12 +27,12 @@
 	* Tipo: SSD
 	* Tamaño: 256 GB
 	* Particiones: 1
-	* Sistema de archivos: EXT4
+	* Sistema de archivos: NTFS
 * Disco 2:
 	* Marca: Samsung
 	* Tipo: HDD
 	* Tamaño: 750 GB
 	* Particiones: 1
-	* Sistema de archivos: EXT4
+	* Sistema de archivos: NTFS
 * Proovedor de internet: GTD Manquehue fibra óptica
 	
