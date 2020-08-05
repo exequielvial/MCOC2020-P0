@@ -16,4 +16,12 @@
 	* L3: 3.0 MB
 * Memoria:
 	* Total 8 GB
-	* Tipo de memoria :
+	* Tipo de memoria: DDR3
+	* Velocidad: 1600 MHz
+	* Número de (SO)DIMM: 1 (creo) 
+* Tarjeta gráfica:
+	* Nvidia GeForce GT 750M
+	* Memoria dedicada: 4GB
+	* Resolución: 1920 x 1080
+* Disco 1:
+	* Marca 
