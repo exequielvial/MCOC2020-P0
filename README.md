@@ -24,4 +24,15 @@
 	* Memoria dedicada: 4GB
 	* Resolución: 1920 x 1080
 * Disco 1:
-	* Marca 
+	* Marca: KingSpec 
+	* Tipo: SSD
+	* Tamaño: 256 GB
+	* Particiones: 1
+	* Sistema de archivos: EXT4
+* Disco 2:
+	* Marca: Samsung
+	* Tipo: HDD
+	* Tamaño: 750 GB
+	* Sistema de archivos no sé, lo ocupo solo para almacenar información
+* Proovedor de internet: GTD Manquehue fibra óptica
+	
