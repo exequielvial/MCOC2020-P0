@@ -9,7 +9,6 @@
 	* Número de núcleos: 2
 	* Número de hilos: 4
 	* Arquitectura: x64
-	* Set de instrucciones
 * Tamaño de las cachés del procesador:
 	* L1: 128 KB
 	* L2: 512 KB
