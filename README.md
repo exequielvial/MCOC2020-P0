@@ -11,4 +11,9 @@
 	* Arquitectura: x64
 	* Set de instrucciones
 * Tamaño de las cachés del procesador:
-	*
+	* L1: 128 KB
+	* L2: 512 KB
+	* L3: 3.0 MB
+* Memoria:
+	* Total 8 GB
+	* Tipo de memoria :
