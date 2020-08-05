@@ -7,6 +7,7 @@
 	* Velocidad base: 2.50 GHz
 	* Velocidad máxima: 3.0 GHz 
 	* Número de núcleos: 2
+	* Procesadores lógicos: 4
 	* Número de hilos: 2
 	* Arquitectura: x64
 	* Set de instrucciones
