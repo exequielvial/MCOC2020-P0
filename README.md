@@ -32,6 +32,7 @@
 	* Marca: Samsung
 	* Tipo: HDD
 	* Tamaño: 750 GB
-	* Sistema de archivos no sé, lo ocupo solo para almacenar información
+	* Particiones: 1
+	* Sistema de archivos: EXT4
 * Proovedor de internet: GTD Manquehue fibra óptica
 	
