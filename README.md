@@ -42,6 +42,6 @@
 * 3) El gráfico de la memoria utilizada es lógico que sea lineal ya que la memoria está definida bajo una fórmula que varía linealmente según N, por otro lado el gráfico del rendimiento no es lineal por un lado porque el computador en que llevé a cabo el programa estaba haciendo más procesos simultáneamente al correr los distintos ciclos por lo que tenía distinta capacidad de RAM a lo largo del ciclo, por otro lado, la multiplicación de las matrices no aumenta linealmente por lo que es esperable que el rendimiento tampoco sea así
 * 4) Versión 3.8 de python
 * 5) Versión 1.18.5 de numpy
-* 6)
+* 6) Gráfico: https://github.com/exequielvial/MCOC2020-P0/issues/2#issue-675389002, como se puede ver en este hay momentos en que supera el 100% por lo que podemos asumir que es en este momento que comienza a utilizar otro procesador para correr el programa, de lo contrario no lo podría hacer.  pd: La imagen del gráfico la saqué al principio de correr el ciclo porque cuano abro esa ventana luego de un rato se reinicia mi computador. 
 
 	
