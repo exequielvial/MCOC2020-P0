@@ -35,4 +35,8 @@
 	* Particiones: 1
 	* Sistema de archivos: NTFS
 * Proovedor de internet: GTD Manquehue fibra óptica
+*Desempeño MATMUL:
+
+
+
 	
