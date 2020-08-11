@@ -44,6 +44,6 @@
 * 5) Versión 1.18.5 de numpy
 * 6) Gráfico: https://github.com/exequielvial/MCOC2020-P0/issues/2#issue-675389002, como se puede ver en este hay momentos en que supera el 100% por lo que podemos asumir que es en este momento que comienza a utilizar otro procesador para correr el programa, de lo contrario no lo podría hacer.  pd: La imagen del gráfico la saqué al principio de correr el ciclo porque cuano abro esa ventana luego de un rato se reinicia mi computador. 
 -----------
-Gráfico matmul multiplicación hecha a mano: https://github.com/exequielvial/MCOC2020-P0/issues/3#issuecomment-671661284
+* Gráfico matmul multiplicación hecha a mano: https://github.com/exequielvial/MCOC2020-P0/issues/3#issuecomment-671661284
 
 	
