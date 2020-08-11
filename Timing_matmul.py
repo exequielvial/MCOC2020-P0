@@ -8,6 +8,7 @@ Created on Wed Aug  5 15:18:39 2020
 from scipy import matrix, rand
 from time import perf_counter
 from matplotlib import pyplot
+from mimatmul import mimatmul
 
 colors = ['r','b','g','m','c','y','k','r','b','g']
 cont = 0
@@ -20,6 +21,8 @@ Ns = [2, 5, 10,
     600, 800, 1000,
     2000, 5000, 10000]
 
+
+    
 pyplot.figure()
 pyplot.subplot(2,1,1)
 while cont < 10:
@@ -28,16 +31,16 @@ while cont < 10:
     mem = []
     pyplot.grid()
     i = 0
-    while i<26:
+    while i<10 :
         N = Ns[i]
         print (N)        
         A = matrix(rand(N,N))
         B = matrix(rand(N,N))
     
         t1 = perf_counter()
-        C = A*B
+        C = mimatmul(A,B)
         t2 = perf_counter()
-    
+        
         dt = t2 - t1
         
         memparcial = 3*(N**2)*8
@@ -50,12 +53,7 @@ while cont < 10:
         #pyplot.grid()
        
         pyplot.loglog(x,y,'-o')        
-       #pyplot.ylabel('Tiempo transcurrido')
-        #pyplot.title('Rendimiento A@B')
-       # pyplot.loglog(x,y,'-o')
-       # yc = [0.1e-3,1e-3,1e-2,0.1,1,10,60,60*10]
-       # pyplot.xticks([10,20,50,100,200,500,1000,2000,5000,10000,20000],[])
-       # pyplot.yticks(yc,['0.1 ms','1 ms','10 ms','0.1 s','1 s','10 s','1 min'])
+       
         pyplot.plot(x,y,'-o'+colors[cont])
         i +=1
     
@@ -66,9 +64,10 @@ pyplot.grid()
 pyplot.ylabel('Tiempo transcurrido')
 pyplot.title('Rendimiento A@B')
 
-yc = [0.1e-3,1e-3,1e-2,0.1,1,10,60,60*10]
+yc = [0.1e-3,1e-3,1e-2,0.1,1,10,60,60*10,60*60]
 pyplot.xticks([10,20,50,100,200,500,1000,2000,5000,10000,20000],[])
-pyplot.yticks(yc,['0.1 ms','1 ms','10 ms','0.1 s','1 s','10 s','1 min'])
+pyplot.yticks(yc,['0.1 ms','1 ms','10 ms','0.1 s','1 s','10 s','1 min','10 min','1 hr'])
+
 
 
 mc = [10**3,10**4,10**5,10**6,10**7,10**8,10**9,10**10]
