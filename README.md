@@ -47,6 +47,11 @@
 * Gráfico matmul multiplicación hecha a mano: https://github.com/exequielvial/MCOC2020-P0/issues/3#issuecomment-671661284
 ---------
 * Gráficos inversas según tipo de datos:
+	* Half: https://github.com/exequielvial/MCOC2020-P0/issues/6#issue-678108944
+	* Single: https://github.com/exequielvial/MCOC2020-P0/issues/5#issue-678108721
+	* Double: https://github.com/exequielvial/MCOC2020-P0/issues/7#issue-678109124
+	* Longdouble: https://github.com/exequielvial/MCOC2020-P0/issues/8#issue-678109305
+* Se puede ver claramente que el uso de memoria ram aumenta a medida que vamos cambiando los tipos de datos (en el orden entregados), esto se debe a que aumentan los bytes de cada float, en todos los casos se superan los 3 procesadores que posee mi computador.
 
 
 	
