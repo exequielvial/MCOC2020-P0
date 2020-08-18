@@ -52,6 +52,8 @@
 	* Double: https://github.com/exequielvial/MCOC2020-P0/issues/7#issue-678109124
 	* Longdouble: https://github.com/exequielvial/MCOC2020-P0/issues/8#issue-678109305
 * Se puede ver claramente que el uso de memoria ram aumenta a medida que vamos cambiando los tipos de datos (en el orden entregados), esto se debe a que aumentan los bytes de cada float, en todos los casos se superan los 3 procesadores que posee mi computador.
-
+---------
+* Entrega 6:
+	* Como es de esperar todos toman tiempos muy parecidos para llevar a cabo el proceso cuando el tamaño de la matriz es pequeño, pero con el aumento de este tamaño se puede observar claramente que a medida que vamos agregando más información a cada inversa, es menor el tiempo que ocupa, esto se puede atribuir a que al ser python un lenguaje de alto nivel si no le decimos específicamente qué vamos a necesitar para llevar a cabo el programa, este va a importar y utilizar más herramientas de las que se necesitan, por esto al usar pos_overwrite=True toma menos tiempo en terminar el ciclo, ya que es una orden muy directa que se le da al computador. 
 
 	
