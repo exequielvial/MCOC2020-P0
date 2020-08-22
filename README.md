@@ -55,5 +55,12 @@
 ---------
 * Entrega 6:
 	* Como es de esperar todos toman tiempos muy parecidos para llevar a cabo el proceso cuando el tamaño de la matriz es pequeño, pero con el aumento de este tamaño se puede observar claramente que a medida que vamos agregando más información a cada inversa, es menor el tiempo que ocupa, esto se puede atribuir a que al ser python un lenguaje de alto nivel si no le decimos específicamente qué vamos a necesitar para llevar a cabo el programa, este va a importar y utilizar más herramientas de las que se necesitan, por esto al usar pos_overwrite=True toma menos tiempo en terminar el ciclo, ya que es una orden muy directa que se le da al computador. 
+----------
+* Entrga 7:
+	* 1.Se puede observar que en los 3 casos que el tiempo de ensamblado en el caso de la matriz dispersa es menor, lo cual es lógico ya que le estamos diciendo al computador que muchos valores van a ser cero y le ahorramos memoria en el proceso, pero el tiempo de solución en todos los casos es menos en los que se trabaja con matriz llena, esto se puede deber a que se maneja mayor información de la matriz al manera de usarla, en todo caso una vez que el número de datos es muy grande estos tiempos son casi iguales.
+	* 2. En todos los casos se puede observar que el comportamiento asintótico para el ensamblado es de una complejidad N^2 ya que se puede observar una tendencia a esta recta, esto es porque ya llega un punto en que el proceso que se demora en computador no es tan elevado con respecto a números menores, pero por otro lado la complejidad asintótica para las soluciones es de N^3, ya que al igual que el anterior tiende a reducir su incremento de tiempo, pero sigue siendo mayor al tiempo de ensamblado por la complejidad del proceso.
+	* 3. Mientras mayor es el tamaño de las matrices, más semejante son los tiempos que toma cada corrida, teniendo además un comportamiento más lineal que anteriormente. 
+	* 4. Todas las corridas tanto usando matrices llenas como dispersas comienzan con un rango de comportamiento, donde se puede observar una gran variedad de tiempos, dentro de un rango acotado, y luego se forma un comportamiento más parejo, el cual se logra antes en los procesos que se utiliza matrices llenas.
+	
 
 	
